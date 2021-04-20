@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple Age Calculator</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <center>
+        <form >
+			<div class="title"><h1><span>Simple</span> Calculator</h1></div>
+			<div class="main-wrapper">
+				<div class="wrapper">
+					<div ><h3 class="headings">Birth Year</h3></div>
+					<input  placeholder="Type Your Age..." type="number" name="number" id="number" class="input-field"  />
+					<input  type="button" value="Find Year" id="button" class="input-btn" />
+					<center ><p id="year" class="  hidden">Year</p></center>
+				</div>
+				<div  class="wrapper margin-top">
+					<div><h3 class="headings">Date of Birth</h3></div>
+					<input   type="date"  name="date" id="dob" class="input-field" />
+		
+					<center ><p id="ageAt" class="visible  hidden ">Age</p></center>
+					
+				</div>
+				<div class="wrapper margin-top">
+					<div><h3 class="headings">Age In</h3></div>
+					<input type="date"   name="date" id="dob-from" class="input-field" />
+				</div>
+				<div class=" margin-top">
+					<input  type="button" value="Calculate" id="calculate-btn" class="input-btn"/>
+					<center ><p id="age" class="visible hidden ">Age</p></center>
+				</div>
+			   
+			   
+			</div>
+			
+            
+        </form>
+    </center>
+	
+
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>
